@@ -1131,7 +1131,7 @@
 							"});",
 							"",
 							"pm.test(\"Ping is successful\", function () {",
-							"    pm.response.to.have.status(400);",
+							"    pm.response.to.have.status(200);",
 							"});",
 							"",
 							"postman.setNextRequest(null);"
